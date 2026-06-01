@@ -17,18 +17,17 @@ int main() {
       
         for (q = x; q < x + 10; q++) {
 
-            if (*p == *q)    // 문자가 같으면
-                count++;     // 빈도수 증가
+            if (*p == *q)    
+                count++;     
         }
 
-        // 지금까지의 최대 빈도수보다 크면 갱신
         if (count > maxCount) {
             maxCount = count;
             maxChar = *p;
         }
     }
 
-    // 결과 출력
+
     printf("%c %d", maxChar, maxCount);
 
     return 0;
