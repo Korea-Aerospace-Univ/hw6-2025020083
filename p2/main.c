@@ -3,8 +3,8 @@
 int main()
 {
     int N;             
-    int a[20]=nullptr;
-    int b[20]=nullptr;   
+    int a[20]={};
+    int b[20]={};   
     int *p, *q;        
 
     scanf("%d", &N);    
