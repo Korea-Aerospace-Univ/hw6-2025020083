@@ -3,7 +3,7 @@
 int main()
 {
     int N;             
-    int a[20]=nullptr
+    int a[20]=nullptr;
     int b[20]=nullptr;   
     int *p, *q;        
 
